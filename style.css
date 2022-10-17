@@ -1,0 +1,37 @@
+/*Coloring tasks*/
+
+/*
+* {
+
+}
+*/
+
+body {
+    background-color: lightgrey;
+}
+
+#pageTitle {
+    color: rgba(255, 240, 0, 1);
+}
+
+#pageSubtitle {
+    color:  hsl(50, 50%, 50%);;
+}
+
+#mainSections {
+    color: #FFF9A6;
+}
+
+/*Select all img elements with 'alt' attribute*/
+img[alt] {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    color: pink;
+}
+
+
