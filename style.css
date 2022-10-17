@@ -33,6 +33,11 @@ img[alt] {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+
+    width:"750";
+    height:"600";
+    max-width: "900";
+    max-height: "720";
 }
 
 .videoBox{
@@ -49,11 +54,18 @@ section > details > p {
 }
 
 
-section {
+section > * {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.gridContainer{
+    display: grid;
+    row-gap: 2mm;
+    column-gap: 4mm;
+    grid-template-columns: auto auto auto;
 }
 
 /*Styling links with pseudo-selectors*/
