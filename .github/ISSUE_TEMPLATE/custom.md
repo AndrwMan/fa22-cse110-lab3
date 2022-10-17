@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-##Screenshot of visual bug
+## Screenshot of visual bug
 
-##Written Description of visual bug
-###Browser and Version (where bug appears)
+## Written Description of visual bug
+### Browser and Version (where bug appears)
 
-##Steps to Reproduce
+## Steps to Reproduce
