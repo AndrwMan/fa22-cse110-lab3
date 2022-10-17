@@ -17,15 +17,22 @@ body {
 
 /*Select all img elements with 'alt' attribute*/
 img[alt] {
-    margin-top: 103em;
-    margin-right: 10em;
-    margin-left: 10em;
-    margin-bottom: 10em;
+    margin-top: 5em;
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-bottom: 5em;
 
-    padding-top: 10rem;
-    padding-right: 10rem;
-    padding-bottom: 10rem;
-    padding-left: 10rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+
+    border-style:dashed;
+    border-color: seagreen;
+    border-width: 3vh;
+    border-radius: 3vh;
+
+    position: fixed;
 
     width:"750";
     height:"600";
@@ -43,7 +50,8 @@ section audio {
 }
 
 section > details > p {
-    color: lightseagreen
+    color: lightseagreen;
+    display: inline;
 }
 
 
@@ -64,6 +72,14 @@ section > details > p {
 ul ~ li {
     text-decoration: 5px;
     text-align:left;
+}
+
+p + ul {
+    display: block;
+}
+
+a {
+    position: relative;
 }
 
 /*Styling links with pseudo-selectors*/
