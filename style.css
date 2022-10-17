@@ -67,7 +67,7 @@ section > details > p {
 }
 
 
-#media > * {
+.flexContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +91,7 @@ p + ul {
 }
 
 a {
-    position: fixed;
+    position:sticky;
 }
 
 /*Styling links with pseudo-selectors*/
