@@ -1,6 +1,17 @@
 /*Coloring tasks*/
 body {
-    background-color: lightgrey;
+    background-color: grey;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: lightgrey;
+    }
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: "./fonts/OpenSans-Regular.ttf";
 }
 
 #pageTitle {
