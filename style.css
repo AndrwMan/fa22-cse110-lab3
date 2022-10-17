@@ -9,11 +9,10 @@ body {
     }
 }
 
-/*
 @font-face {
     font-family: OpenSans;
     src: url('./fonts/OpenSans-Regular.ttf') format('truetype');
-}*/
+}
 
 #pageTitle {
     color: rgba(255, 240, 0, 1);
