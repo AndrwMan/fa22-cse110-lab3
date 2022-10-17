@@ -14,7 +14,7 @@ body {
     color: rgba(255, 240, 0, 1);
 }
 
-#pageSubtitle {
+#pageSubtitle, #date {
     color:  hsl(50, 50%, 50%);;
 }
 
@@ -28,10 +28,36 @@ img[alt] {
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+video.videoBox{
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+}
+
+section audio {
+    margin: auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Styling links with pseudo-selectors*/
+a:hover {
+    color: pink;
 }
 
 a:hover {
-    color: pink;
+    color: violet;
 }
 
 
