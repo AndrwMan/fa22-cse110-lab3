@@ -43,7 +43,7 @@ img[alt] {
     border-width: 3vh;
     border-radius: 3vh;
 
-    position: fixed;
+    position: relative;
 
     width:"750";
     height:"600";
@@ -90,7 +90,7 @@ p + ul {
 }
 
 a {
-    position: relative;
+    position: fixed;
 }
 
 /*Styling links with pseudo-selectors*/
