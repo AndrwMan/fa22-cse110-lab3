@@ -36,28 +36,28 @@ img[alt] {
 }
 
 .videoBox{
-    margin: 15px 15px 15px 15px;
-    padding: 15px 15px 15px 15px;
+    margin: 15pt 15pt 15pt 15pt;
+    padding: 15pt 15pt 15pt 15pt;
 }
 
 section audio {
     margin: auto;
 }
 
-/*
+
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}*/
+}
 
 /*Styling links with pseudo-selectors*/
 a:hover {
     color: pink;
 }
 
-a:hover {
+a:active {
     color: violet;
 }
 
