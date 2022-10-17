@@ -89,7 +89,7 @@ p + ul {
 }
 
 a {
-    position: absolute;
+    position: sticky;
 }
 
 /*Styling links with pseudo-selectors*/
