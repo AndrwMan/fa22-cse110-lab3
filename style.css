@@ -15,7 +15,7 @@ body {
 }
 
 #pageSubtitle, #date {
-    color:  hsl(50, 50%, 50%);;
+    color:  hsl(50, 50%, 50%);
 }
 
 #mainSections {
@@ -44,12 +44,13 @@ section audio {
     margin: auto;
 }
 
+/*
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 /*Styling links with pseudo-selectors*/
 a:hover {
