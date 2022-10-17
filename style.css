@@ -57,11 +57,11 @@ img[alt] {
     padding: 15pt 15pt 15pt 15pt;
 }
 
-section audio {
+div audio {
     margin: auto;
 }
 
-section > details > p {
+div > details > p {
     color: lightseagreen;
     display: inline;
 }
