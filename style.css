@@ -12,7 +12,7 @@ body {
 /*
 @font-face {
     font-family: OpenSans;
-    src: "./fonts/OpenSans-Regular.ttf";
+    src: url('./fonts/OpenSans-Regular.ttf') format('truetype');
 }*/
 
 #pageTitle {
@@ -41,8 +41,8 @@ img[alt] {
 
     border-style:dashed;
     border-color: seagreen;
-    border-width: 3vh;
-    border-radius: 3vh;
+    border-width: 2vh;
+    border-radius: 2vh;
 
     position: relative;
 
@@ -82,7 +82,7 @@ section > details > p {
 }
 
 ul ~ li {
-    text-decoration: 5px;
+    text-decoration: auto auto black 5px;
     text-align:left;
 }
 
